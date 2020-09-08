@@ -1,0 +1,56 @@
+查看分支的情况，前面带*号的就是当前分支
+
+git branch 
+
+ 
+
+创建分支
+
+git branch 分支名
+
+ 
+
+切换当前分支到指定分支
+
+git checkout 分支名
+
+ 
+
+创建分支并切换到创建的分支
+
+git checkout  -b 分支名
+
+ 
+
+合并某分支的内容到当前分支
+
+git merge 分支名
+
+ 
+
+删除分支
+
+git branch -d 分支名
+新建标签，默认为最新版本，后面加上版本号参数则可指定版本增加标签
+
+git tag 标签名 版本号
+
+ 
+
+查看所有标签：
+
+git tag
+
+ 
+
+查看标签的详细信息
+
+git show 标签名
+
+ 
+
+将tag提交到远端仓库
+
+推送所有tag:
+
+git push origin --tags
